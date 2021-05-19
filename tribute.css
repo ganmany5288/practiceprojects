@@ -25,6 +25,9 @@
   /*   max-width:900px; */
   /*   max-width:50%; */
   /*   background-image: url(http://lofrev.net/wp-content/photos/2017/03/avicii_logo.png) */
+    background-color:grey;
+  /*   background-image:url(https://cdn140.picsart.com/238916665026212.png?r240x240); */
+    background-size: 100px;
   }
   
   #title{
@@ -43,10 +46,37 @@
   #image{
     max-width:100%;
     height:auto;
+    border: 5px solid black;
   }
   
   #img-caption {
-      font-size: 0.6em;
+      font-size: 1em;
       font-style: italic;
       text-align:center;
+  }
+  
+  /* Avicii Logo */
+  
+  .logo{
+    display: flex;
+  }
+  
+  .left-side{
+    width:0;
+    height:0;
+    border-style:solid;
+    border-width: 0 0 150px 150px;
+    border-color: transparent transparent black transparent;
+    margin-right:10px;
+    margin-top: 20px;
+  }
+  
+  .right-side{
+    width:0;
+    height:0;
+    border-style:solid;
+    border-width: 150px 150px 0 0 ;
+    border-color: black transparent transparent transparent;
+    margin-top: 20px;
+    margin-left:10px;
   }
