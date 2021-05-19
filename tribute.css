@@ -1,0 +1,52 @@
+/*   #title{
+    text-align:center;
+  }
+  #img-div{
+    display:inline-flex;
+    flex-direction: column;
+    justify-content:center;
+    background-color: grey;
+    
+    border: 5px solid black;
+  }
+  #image{
+    height:auto;
+    max-width:100%;
+  }
+  #img-caption{
+    text-align:center;
+  } */
+  html{
+    font-family:sans-serif,Arial, serif;
+  }
+  
+  body{
+    margin:auto;
+  /*   max-width:900px; */
+  /*   max-width:50%; */
+  /*   background-image: url(http://lofrev.net/wp-content/photos/2017/03/avicii_logo.png) */
+  }
+  
+  #title{
+    text-align:center;
+  }
+  
+  #img-div{
+    width:auto;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+  }
+  
+  #image{
+    max-width:100%;
+    height:auto;
+  }
+  
+  #img-caption {
+      font-size: 0.6em;
+      font-style: italic;
+      text-align:center;
+  }
