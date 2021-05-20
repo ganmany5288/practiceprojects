@@ -1,0 +1,17 @@
+body{
+    background-image: url("https://i.redd.it/z1iqdo9rzbt31.png");
+  }
+  
+.sign-up-sheet{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    justify-content:center;
+    height:auto;
+    width:50%;
+    background-color:rgba(0,0,0,0.63);
+}
+  
+#label-text{
+    color:white;
+}
