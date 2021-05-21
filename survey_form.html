@@ -11,12 +11,12 @@
   <body>
     <div class = "sign-up-sheet">
       <form id = "survey-form">
-        <label for = "name" id = "label-text">Name: </label><br>
+        <label for = "name" id = "name-label">Name: </label><br>
         <input type = "text" id = "name" name = "name" placeholder = "Monika" required><br><br>
-        <label for = "email" id = "label-text">Email: </label><br>     
+        <label for = "email" id = "email-label">Email: </label><br>     
         <input type = "email" id = "email" name = "email" pattern = "+@gmail.com" placeholder = "thisis@email.com" required><br><br>
         
-        <label for = "number" id = "label-text">Age: </label><br>
+        <label for = "number" id = "number-label">Age: </label><br>
         <input type = "number" id = "number" name = "number" min = "17" max = "30" placeholder = "69"required><br><br>
         
         <label for = "fname" id = "label-text">Who is best girl?: </label><br>
@@ -27,7 +27,27 @@
         <input type="radio" id="other" name="Monika" value="Monika">
         <label for="other" id = "label-text">Monika</label><br><br>
         
-        <input type = "submit" value = "Submit">
+        <label for = "mood" id = "label-text">Choose your mood at the moment: </label>
+        <select name = "mood" id = "dropdown" required>
+          <option value = "Happy">Happy</option>
+          <option value = "sad">Sad</option>
+          <option value = "angry">Angry</option>
+          <option value = "tired">Tired</option>
+        </select><br><br>
+        
+        <label for = "checkbox" id = "label-text">Where did you hear about this cult? </label><br>
+        <input type = "checkbox" id = "sayori" name = "sayori" value = "sayori" required>
+        <label for = "sayori" id = "label-text"> Sayori</label><br>
+        <input type = "checkbox" id = "social-media" name = "social-media" value = "social-media">
+        <label for = "social-media" id = "label-text"> Social Media</label><br>
+        <input type = "checkbox" id = "ddlc" name = "ddlc" value = "ddlc">
+        <label for = "ddlc" id = "label-text"> Doki Doki Literature Club</label><br><br>
+        
+        <label for = "comments" id = "label-text">Additional Comments: </label><br>
+        <textarea id = "comments" name = "comments" rows = "5" cols = "50">Please don't hesitate to tell us more information about yourself!
+        </textarea><br><br>
+        
+        <input type = "submit" value = "Submit" id = "submit"><br>
       </form>
 <!--       <p>This is my name</p> -->
     </div>
