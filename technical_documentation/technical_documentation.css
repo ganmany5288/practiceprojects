@@ -1,0 +1,10 @@
+html,head,body{
+    background: #b3b3b3;
+    font-family: Times New Roman,Arial,sans-serif;
+  }
+  
+#no-dot{
+list-style-type:none;
+margin:0;
+padding:0;
+}
