@@ -1,10 +1,28 @@
 html,head,body{
-    background: #b3b3b3;
-    font-family: Times New Roman,Arial,sans-serif;
-  }
-  
-#no-dot{
-list-style-type:none;
-margin:0;
-padding:0;
+  background: #b3b3b3;
+  font-family: Times New Roman,Arial,sans-serif;
 }
+
+#main-doc{
+	position:relative;
+	margin-left:300px;
+}
+
+#navbar{
+	width: 250px;
+	height:100%;
+	position:fixed;
+  border-right-style:solid;
+  border-color:black;
+  border-width:5px;
+}
+
+#no-dot{
+  list-style-type:none;
+  padding:0;
+	margin:0;
+}
+
+/* #navbar{
+  border: 5px 10px solid red;
+} */
