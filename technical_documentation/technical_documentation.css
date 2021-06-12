@@ -3,9 +3,18 @@ html,head,body{
   font-family: Times New Roman,Arial,sans-serif;
 }
 
+a:link{
+	text-decoration:none;
+	color:black;
+}
+
+a:visited{
+	color:black;
+}
+
 #main-doc{
 	position:relative;
-	margin-left:300px;
+	margin-left:280px;
 }
 
 #navbar{
@@ -23,6 +32,9 @@ html,head,body{
 	margin:0;
 }
 
-/* #navbar{
-  border: 5px 10px solid red;
-} */
+
+@media (max-width: 400px){
+	body{
+		background-color:red;
+	}
+}
