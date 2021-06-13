@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+
+<html>
+  <title>Personal Portfolio</title>
+  <body>
+    <div id = "header"></div>
+    <div id = "welcome-section"></div>
+    <div id = "projects"></div>
+    <div id = "contact-info"></div>
+  </body>
+</html>
