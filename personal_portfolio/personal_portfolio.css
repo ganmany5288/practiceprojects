@@ -83,7 +83,7 @@ body{
 
 .grid{
   display:block grid;
-  grid-template-columns: 310px 300px;
+  grid-template-columns: 1fr 1fr;
   /* background-color: #DCAE96; */
 }
 
@@ -111,10 +111,12 @@ body{
   height:50px;
   border-width: 0 11px 11px 0;
   transform: rotate(45deg);
-  margin-top: 40vh;
+  justify-self: end;
+  align-self:start;
+  /* margin-top: 40vh; */
   /* margin-top: -40vh; */
   /* margin-bottom: -50vh; */
-  margin-left:280px;
+  /* margin-left: 1fr; */
 }
 
 #span-1{
