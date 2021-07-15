@@ -70,10 +70,20 @@ body{
   color:white;
 }
 
-#test{
+/* #test{
   margin: 16em;
   width: 70%;
   text-align: center;
+  border-width: 22px;
+  border:solid gold;
+} */
+
+#test{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  margin: 16em;
 }
 #test2{
   width: 70%;
@@ -85,7 +95,31 @@ body{
   height:50px;
   border-width: 0 11px 11px 0;
   transform: rotate(45deg);
-  margin-left: 47%;
+  margin-left: 48%;
+}
+
+#test-span{
+  border-width: 22px;
+  border:solid red;
+}
+
+#span-1{
+  /* width: 20%; */
+  /* height:20%; */
+  /* border-width: 11px; */
+  border-right: 5px solid white;
+  padding-right: 5px;
+  /* border:solid white; */
+  text-align: right;
+}
+
+#span-2{
+  /* width: 20%; */
+  /* height:20%; */
+  /* border-width: 11px; */
+  /* border:solid white; */
+  margin-left: 5px;
+  text-align: left;
 }
 
 
