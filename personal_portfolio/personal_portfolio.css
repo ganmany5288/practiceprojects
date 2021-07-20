@@ -6,9 +6,12 @@ html{
   overflow:hidden;
   height:100%;
 }
+/* *{
+  margin:0;
+  padding:0;
+} */
 
 body{
-  background-color: #DCAE96;
   margin:0;
   padding:0;
   overflow:auto;
@@ -157,7 +160,7 @@ a:link{color: black;}
 }
 
 img{
-  width:25vw;
+  width:400px;
   height:350px;
 }
 
@@ -190,12 +193,11 @@ img{
   background-color:#866988;
 }
 
-/* .reach-out{
-  height:40px;
-  background-color: blanchedalmond;
-} */
+.contacts-header{
+  margin-bottom:100px;
+}
 
 .connect-icon{
-  font-size: 20px;
+  font-size: 25px;
   margin:5px;
 }
