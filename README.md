@@ -1,2 +1,2 @@
-# webdev
-Practicing Web Development Skills
+# Projects
+- Random practice projects compiled in a single location
